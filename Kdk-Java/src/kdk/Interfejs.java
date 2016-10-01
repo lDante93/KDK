@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Interfejs {
 
     static Scanner sc = new Scanner(System.in);
-
+33333
     public static void main(String[] args) {
         Kot kot = new Kot();
 
