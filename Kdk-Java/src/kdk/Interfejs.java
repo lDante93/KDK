@@ -12,7 +12,7 @@ public class Interfejs {
 
     public static void main(String[] args) {
         Kot kot = new Kot();
-
+asdasd
         System.out.print("Podaj imię kota: ");
         kot.setImie(getUserInput());
 
