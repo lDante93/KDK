@@ -11,7 +11,7 @@ Float waga;
 String imieOpiekuna;
 static Scanner sc = new Scanner(System.in);
 public String przedstawSie(){
-	return imie +" "+ data+" "+ waga + imieOpiekuna;
+	return "Imiê kota" +imie +" Data: "+ data+" Waga: "+ waga +" Imiê opiekuna: " + imieOpiekuna;
 }
 public static String getUserInput()
 {
