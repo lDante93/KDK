@@ -44,5 +44,5 @@ public class Interfejs {
     public static String getUserInput() {
         return sc.nextLine().trim();
     }
-
+zmiana();xD;
 }
