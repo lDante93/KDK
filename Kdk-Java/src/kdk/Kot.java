@@ -1,23 +1,15 @@
 package kdk;
 
 import java.util.Date;
-import java.util.Scanner;
 
-public class Kot
-{
-String imie;
-Date data;
-Float waga;
-String imieOpiekuna;
-static Scanner sc = new Scanner(System.in);
-public String przedstawSie(){
-	return "Imiê kota" +imie +" Data: "+ data+" Waga: "+ waga +" Imiê opiekuna: " + imieOpiekuna;
-}
-public static String getUserInput()
-{
-	return sc.nextLine();
-}
-	public String getImie() {
+public class Kot {
+
+    private String imie;
+    private Date dataUrodzenia;
+    private Float waga;
+    private String imieOpiekuna;
+
+    public String getImie() {
         return imie;
     }
 
@@ -25,12 +17,12 @@ public static String getUserInput()
         this.imie = imie;
     }
 
-    public Date getdata() {
-        return data;
+    public Date getDataUrodzenia() {
+        return dataUrodzenia;
     }
 
-    public void setdata(Date data) {
-        this.data = data;
+    public void setDataUrodzenia(Date dataUrodzenia) {
+        this.dataUrodzenia = dataUrodzenia;
     }
 
     public Float getWaga() {
@@ -47,5 +39,6 @@ public static String getUserInput()
 
     public void setImieOpiekuna(String imieOpiekuna) {
         this.imieOpiekuna = imieOpiekuna;
-}
+    }
+
 }
